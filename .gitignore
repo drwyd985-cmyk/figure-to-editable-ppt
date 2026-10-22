@@ -1,0 +1,35 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node dependencies supplied by the local host
+node_modules/
+
+# Local task inputs, renderings, reports, and build products
+/work/
+/build/
+/dist/
+/input/
+/inputs/
+/output/
+/outputs/
+/source-media/
+reconstruction-state.json
+
+# Credentials and local editor/host configuration
+.env
+.env.*
+!.env.example
+.codex/
+.vscode/
+.idea/
+
+# OS and Office temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.log

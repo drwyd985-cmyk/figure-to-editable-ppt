@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研图片两阶段可编辑重建"
+  short_description: "先提取文字并导出确认，再按连续底形与独立线条重建可编辑科研图"
+  default_prompt: "请使用 $figure-to-editable-ppt 将这张科研图转成可编辑 PPT，先导出文字可编辑版供我确认，再重建底层图形。"
